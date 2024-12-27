@@ -1,15 +1,6 @@
-print("Question Number 1")
-x = input('earth how many contnent have:  ')
-if x == "7":
-    print("                                                ohh you are so claver ")
-else:
-    print("wrong answer try again")
+name = "terb"
+age = 16
+print("My name is {} and I am {} years old.".format(name, age))
 
 
-
-print("Question Number 2")
-y =input("what is the sum of 44 + 66:   ")
-if y == "100":
-    print("                                               that is correct great!!")
-else:
-    print("wrong solution sorry")
+print("My name is {name} and I am {age} years old.".format(name="Ayele", age=35))
